@@ -192,14 +192,13 @@ body {
     
 }
 
-.menu-item:hover {
-    height: 150%;
+.menu-item:hover, .menu-item-active{
+    height: 180%;
     font-size: 18px;
     transition: all 0.5s;
     background-image: linear-gradient(to right, #7689ea, #42c8d6);
-    border-color: transparent;
-}
-
+    border-color: transparent;}
+    
 a{
     text-decoration:none;
     color: rgb(0, 0, 0);
